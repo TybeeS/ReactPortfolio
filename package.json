@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://TybeeS.github.io/TybeeS_PersonalPortfolio",
+  "homepage": "https://TybeeS.github.io/TybeeS_ReactPortfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
