@@ -2,9 +2,30 @@ import React from 'react';
 import quiz from '../img/quiz.jpg';
 import exercise from '../img/exercise.jpg';
 import review from '../img/review.jpg';
+import urban_lens from '../img/urban_lens.jpg';
+import donut from '../img/donut.jpg';
+
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'High Fidelity Prototype For Cost of Living Website',
+      description: 'A collaborative prototype for UrbanLens, created with a team of designers and developers.',
+      image: urban_lens,
+      link: 'https://www.figma.com/proto/xgDshqFaIQFpeuovZwe0V2',
+    },
+    {
+      title: 'Static Site For Fictional Business',
+      description: 'A business website for Dazzling Donuts, a donut shop.',
+      image: donut,
+      link: 'https://earnest-entremet-78f7e8.netlify.app/',
+    },
+    {
+      title: 'Game Review Website',
+      description: 'A website for reviewing video games with a working comment section.',
+      image: review,
+      link: 'https://students.gaim.ucf.edu/~ty009596/dig3134c/assignment05/login.php',
+    },
     {
       title: 'Blue Character Quiz',
       description: 'A short quiz application that determine which blue fictional character you are.',
@@ -16,12 +37,6 @@ const Projects = () => {
       description: 'An app that contains different numerical operations for different kinds of exercises.',
       image: exercise,
       link: 'https://github.com/TybeeS/TybeeS_NativeExerciseApp',
-    },
-    {
-      title: 'Game Review Site',
-      description: 'A website for reviewing video games with a working comment section.',
-      image: review,
-      link: 'https://students.gaim.ucf.edu/~ty009596/dig3134c/assignment05/login.php',
     },
   ];
 
